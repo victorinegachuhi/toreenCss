@@ -1,0 +1,76 @@
+/*type selectors*/
+body{
+	margin: 0;
+	padding:0;
+	font-family: chiller,helvetica,castellar;
+}
+
+h1{margin: 0;}
+
+h2, h3, h4{
+	color:dodgerblue;
+}
+
+
+/*class selectors*/
+.container{
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav{
+	background-color: khaki;
+	padding: 1em 2em;
+
+}
+
+.intro{
+	color: orange;
+	font-size: 1.3em;
+}
+
+/*ID selectors*/
+#header, #footer{
+	background-color: black;
+    color:white;
+    padding: 2em;
+}
+
+#main{
+	margin: 1em 2em;
+}
+
+/*universal selector*/
+/** {border: 2px yellow dotted;
+	margin:0;
+	padding:0;
+}*/
+
+/*descendant selectors*/
+.nav li{
+  display: inline;
+  margin-right: 1em;
+
+}
+
+.nav li a{
+	color: black;
+}
+
+/*child selectors*/
+.nav li > a{text-decoration: none;}
+
+/*adjacent sibling selectors*/
+h3 + h4{
+	margin-top: 2em;
+}
+
+/*/*link pseudo-class selectors*/
+a:link{color: blue;}
+a:visited{color:black;}
+a:focus{color:orange;}
+a:hover{color: navy; font-weight: bold;}
+a:active{color:red;}
+
+
